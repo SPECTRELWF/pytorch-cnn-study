@@ -33,8 +33,9 @@ net = AlexNet().to(device)
 net.load_state_dict(torch.load('/home/lwf/code/pytorch学习/alexnet-cat-dag/model/cat_dog_model.pth'))
 
 pred = net(img)
+print(pred.argmax(dim = 1).cpu().numpy()[0])
 res = ''
-if pred.argmax() == 1:
+if pred.argmax(dim = 1) == 0:
     res += 'pred:cat'
 else:
     res += 'pred:dog'
