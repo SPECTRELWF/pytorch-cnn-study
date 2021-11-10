@@ -14,3 +14,9 @@ vgg16：
 原文链接：https://arxiv.org/abs/1409.1556
 
 网络结构：![image](https://user-images.githubusercontent.com/51198441/140594250-22bd1008-0d37-44aa-a738-2cef03d2e991.png)
+
+
+resnet:
+原文链接：https://arxiv.org/pdf/1512.03385.pdf
+网络结构：![image](https://user-images.githubusercontent.com/51198441/141037367-51109aa5-f21f-4c5b-94d7-aa7e7cce5c16.png)
+
